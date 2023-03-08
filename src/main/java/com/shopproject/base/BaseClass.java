@@ -24,7 +24,7 @@ public class BaseClass {
     public static Properties prop;
     // public static WebDriver driver;
 
-    //declare ThreadLocal driver
+    //declare ThreadLocal driver/
     public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 
     @BeforeSuite(groups = {"Smoke", "Sanity", "Regression"})
